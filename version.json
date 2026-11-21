@@ -1,11 +1,11 @@
 {
   "name": "SatFeeds",
-  "version": "2.6.1",
-  "display": "2.6.1 (Test)",
-  "ipk_url": "https://github.com/feedhunter/satfeeds/releases/download/v2.6.1/enigma2-plugin-extensions-satfeeds_2.6.1_all.ipk",
-  "ipk_file": "enigma2-plugin-extensions-satfeeds_2.6.1_all.ipk",
-  "sha256": "a1d8d514388c9804dd199f43bff815f4d889f0d864b4cb37c974f9b20ff8c00d",
-  "size": 45064,
-  "changes_de": "Testversion zur Prüfung der Update-Funktion, inhaltlich wie V2.6.",
-  "changes_en": "Test version for checking the update function, same content as V2.6."
+  "version": "2.6",
+  "display": "2.6",
+  "ipk_url": "https://github.com/feedhunter/satfeeds/releases/download/v2.6/enigma2-plugin-extensions-satfeeds_2.6_all.ipk",
+  "ipk_file": "enigma2-plugin-extensions-satfeeds_2.6_all.ipk",
+  "sha256": "34d64cde82e8a2d021f0121a92cd5bd1b3df3d532fed0f00bb2830d7a83a8ba2",
+  "size": 45062,
+  "changes_de": "Update-Prüfung, schmalere Statistik-Spalten, FEC nicht mehr im EPG-Text, neues Icon.",
+  "changes_en": "Update check, narrower statistics columns, FEC no longer in the EPG text, new icon."
 }
