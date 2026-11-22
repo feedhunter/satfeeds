@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35211614/README.md)
 # SatFeeds
 
 **Deutsch** | [English](#english)
@@ -70,6 +69,7 @@ SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008
 - Fetch interval of 3, 5 or 10 minutes, or off, with conditional requests (small response if the page has not changed)
 - Message when zapping to a feed
 - Monthly statistics with comparison to the previous month
+- Save feeds (key 0) and show them (key PLAY, with category, filter by category and text search; delete entries again): your own archive to see when a feed was on air before, on which satellite and with which parameters (data or parts of the parameters often repeat)
 - German and English, depending on the language setting of the receiver
 - Update check (default: off), installs only after your confirmation
 
