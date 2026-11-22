@@ -4,8 +4,8 @@
   "display": "2.7",
   "ipk_url": "https://github.com/feedhunter/satfeeds/releases/download/v2.7/enigma2-plugin-extensions-satfeeds_2.7_all.ipk",
   "ipk_file": "enigma2-plugin-extensions-satfeeds_2.7_all.ipk",
-  "sha256": "dbc6a9d6691a2484bc338873f166f47bf15afa9c53bef31a98d34e75abfd7998",
-  "size": 52658,
+  "sha256": "8dafcf6d6da1ebdb5a9aff4ff8dbc2ff07f4971edc61632f9734b01cc72710d8",
+  "size": 52718,
   "changes_de": "Neu: Feeds mit Taste 0 speichern, mit PLAY anzeigen (Kategorie, Filter, Suche) und wieder löschen (einzeln, markierte, alle).",
   "changes_en": "New: save feeds with key 0, show them with PLAY (category, filter, search) and delete them again (single, marked, all)."
 }
