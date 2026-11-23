@@ -10,6 +10,7 @@ SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octag
 - Bouquet mit EPG-Text, gegliedert nach Format (4:2:0 / 4:2:2 / verschlüsselt) oder nach Kategorie
 - Filter nach Satellitenpositionen und Feed-Arten
 - Abrufintervall 3, 5 oder 10 Minuten oder aus, mit bedingter Abfrage (kleine Antwort, wenn sich die Seite nicht geändert hat)
+- Zweite Feedquelle (optional): Feedmeldungen aus dem Forum rolisat.de, einzeln oder zusammen mit Satelliweb; Spalte „Quelle“ in der Liste
 - Zap-Meldung beim Umschalten auf einen Feed
 - Monatsstatistik mit Vormonatsvergleich
 - Deutsch und Englisch, je nach Spracheinstellung der Box
@@ -17,18 +18,18 @@ SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octag
 
 ## Download und Installation
 
-Aktuelle Version: **2.6**
+Aktuelle Version: **3.0**
 
-- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/enigma2-plugin-extensions-satfeeds_2.6_all.ipk)
-- [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/SatFeeds_Anleitung_DE.pdf)
-- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/SatFeeds_Manual_EN.pdf)
-- [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/CHANGELOG_Satfeeds_de.txt) · [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/CHANGELOG_Satfeeds_en.txt)
+- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/enigma2-plugin-extensions-satfeeds_3.0_all.ipk)
+- [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Anleitung_DE.pdf)
+- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Manual_EN.pdf)
+- [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_de.txt) · [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_en.txt)
 - [Alle Versionen](https://github.com/feedhunter/satfeeds/releases)
 
 Die Datei `.ipk` nach `/tmp` auf die Box kopieren und im Terminal ausführen:
 
 ```
-opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_2.6_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.0_all.ipk
 ```
 
 Danach fragt die Box, ob die GUI neu gestartet werden soll. Alternativ: `killall -9 enigma2`.
@@ -39,7 +40,7 @@ Ist die Einstellung „Update-Prüfung“ eingeschaltet (Standard: aus), fragt d
 
 ## Datenquelle und Bedingungen
 
-Die Feed-Daten stammen ausschließlich von [www.satelliweb.com](https://www.satelliweb.com). Die Betreiber haben das Auslesen und die Weitergabe des Plugins unter diesen Bedingungen erlaubt:
+Die Feed-Daten stammen von [www.satelliweb.com](https://www.satelliweb.com) und – optional, über die Einstellung „Quelle der Feeds“ – aus dem Feedmeldungen-Forum von [rolisat.de](http://rolisat.de/phpBB/index.php). Die Betreiber haben das Auslesen unter diesen Bedingungen erlaubt (Satelliweb auch die Weitergabe des Plugins):
 
 - kostenlos und nicht kommerziell
 - keine zusätzlichen Anfragen an die Seite
@@ -51,7 +52,7 @@ Bitte beachtet diese Bedingungen und stellt das Abrufintervall nicht kürzer als
 
 - Die Feeds sind Livemeldungen von Nutzern. Ob ein Feed bei euch empfangbar ist, hängt vom Empfang ab (Schüssel, Rotor, Position).
 - Getestet nur auf einem Octagon SF8008 mit OpenATV 8.0.1 und den Skins MetrixHD und HDglass17. Auf anderen Boxen, Images oder Skins kann die Darstellung abweichen.
-- Das Plugin wird ohne Gewähr bereitgestellt. Es ist ein privates Hobbyprojekt und steht in keiner Verbindung zu Satelliweb.
+- Das Plugin wird ohne Gewähr bereitgestellt. Es ist ein privates Hobbyprojekt und steht in keiner Verbindung zu Satelliweb oder Rolisat.
 
 Autor: feedhunter
 
@@ -67,6 +68,7 @@ SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008
 - Bouquet with EPG text, grouped by format (4:2:0 / 4:2:2 / encrypted) or by category
 - Filters for satellite positions and feed types
 - Fetch interval of 3, 5 or 10 minutes, or off, with conditional requests (small response if the page has not changed)
+- Second feed source (optional): feed reports from the forum rolisat.de, alone or together with Satelliweb; column "Source" in the list
 - Message when zapping to a feed
 - Monthly statistics with comparison to the previous month
 - Save feeds (key 0) and show them (key PLAY, with category, filter by category and text search; delete entries again): your own archive to see when a feed was on air before, on which satellite and with which parameters (data or parts of the parameters often repeat)
@@ -75,17 +77,17 @@ SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008
 
 ### Download and installation
 
-Current version: **2.6**
+Current version: **3.0**
 
-- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/enigma2-plugin-extensions-satfeeds_2.6_all.ipk)
-- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/SatFeeds_Manual_EN.pdf) · [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/SatFeeds_Anleitung_DE.pdf)
-- [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/CHANGELOG_Satfeeds_en.txt) · [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v2.6/CHANGELOG_Satfeeds_de.txt)
+- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/enigma2-plugin-extensions-satfeeds_3.0_all.ipk)
+- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Manual_EN.pdf) · [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Anleitung_DE.pdf)
+- [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_en.txt) · [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_de.txt)
 - [All versions](https://github.com/feedhunter/satfeeds/releases)
 
 Copy the `.ipk` file to `/tmp` on the receiver and run in a terminal:
 
 ```
-opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_2.6_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.0_all.ipk
 ```
 
 The receiver then asks whether to restart the GUI. Alternatively: `killall -9 enigma2`.
@@ -96,7 +98,7 @@ If the setting "Update check" is switched on (default: off), the plugin reads th
 
 ### Data source and conditions
 
-The feed data comes exclusively from [www.satelliweb.com](https://www.satelliweb.com). The operators have permitted reading the data and sharing the plugin under these conditions:
+The feed data comes from [www.satelliweb.com](https://www.satelliweb.com) and – optionally, via the setting "Source of the feeds" – from the feed-reports forum of [rolisat.de](http://rolisat.de/phpBB/index.php). The operators have permitted reading the data under these conditions (Satelliweb also the sharing of the plugin):
 
 - free of charge and non-commercial
 - no additional requests to the site
@@ -108,6 +110,6 @@ Please respect these conditions and do not set the fetch interval shorter than p
 
 - The feeds are live reports from users. Whether a feed can be received at your location depends on your setup (dish, rotor, position).
 - Tested only on an Octagon SF8008 with OpenATV 8.0.1 and the skins MetrixHD and HDglass17. The display may differ on other receivers, images or skins.
-- The plugin is provided without warranty. It is a private hobby project and not affiliated with Satelliweb.
+- The plugin is provided without warranty. It is a private hobby project and not affiliated with Satelliweb or Rolisat.
 
 Author: feedhunter
