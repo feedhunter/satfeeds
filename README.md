@@ -2,7 +2,7 @@
 
 **Deutsch** | [English](#english)
 
-SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octagon SF8008). Es zeigt die aktuellen Live-Feed-Meldungen von [www.satelliweb.com](https://www.satelliweb.com) an und stellt die Feeds der letzten Stunden als eigenes Bouquet mit EPG-Text bereit.
+SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octagon SF8008). Es zeigt die aktuellen Live-Feed-Meldungen von [www.satelliweb.com](https://www.satelliweb.com) und – optional – aus dem Feedmeldungen-Forum von [rolisat.de](http://rolisat.de/phpBB/index.php) an und stellt die Feeds der letzten Stunden als eigenes Bouquet mit EPG-Text bereit.
 
 ## Funktionen
 
@@ -60,7 +60,7 @@ Autor: feedhunter
 
 ## English
 
-SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008). It shows the current live feed reports from [www.satelliweb.com](https://www.satelliweb.com) and provides the feeds of the last hours as a bouquet of its own, with EPG text.
+SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008). It shows the current live feed reports from [www.satelliweb.com](https://www.satelliweb.com) and – optionally – from the feed-reports forum of [rolisat.de](http://rolisat.de/phpBB/index.php), and provides the feeds of the last hours as a bouquet of its own, with EPG text.
 
 ### Features
 
