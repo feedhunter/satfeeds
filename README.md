@@ -11,6 +11,8 @@ SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octag
 - Filter nach Satellitenpositionen und Feed-Arten
 - Abrufintervall 3, 5 oder 10 Minuten oder aus, mit bedingter Abfrage (kleine Antwort, wenn sich die Seite nicht geändert hat)
 - Zweite Feedquelle (optional): Feedmeldungen aus dem Forum rolisat.de, einzeln oder zusammen mit Satelliweb; Spalte „Quelle“ in der Liste
+- Benachrichtigungen: Regeln aus Suchbegriff, Kategorie, Quelle und „nur unverschlüsselt“; bei einem passenden neuen Feed erscheint eine Einblendung
+- Kategoriefilter und Textsuche im Hauptfenster
 - Zap-Meldung beim Umschalten auf einen Feed
 - Monatsstatistik mit Vormonatsvergleich
 - Deutsch und Englisch, je nach Spracheinstellung der Box
@@ -18,18 +20,18 @@ SatFeeds ist ein Plugin für Enigma2 (getestet mit OpenATV 8.0.1 auf einem Octag
 
 ## Download und Installation
 
-Aktuelle Version: **3.0**
+Aktuelle Version: **3.1**
 
-- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/enigma2-plugin-extensions-satfeeds_3.0_all.ipk)
-- [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Anleitung_DE.pdf)
-- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Manual_EN.pdf)
-- [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_de.txt) · [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_en.txt)
+- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/enigma2-plugin-extensions-satfeeds_3.1_all.ipk)
+- [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/SatFeeds_Anleitung_DE.pdf)
+- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/SatFeeds_Manual_EN.pdf)
+- [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/CHANGELOG_Satfeeds_de.txt) · [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/CHANGELOG_Satfeeds_en.txt)
 - [Alle Versionen](https://github.com/feedhunter/satfeeds/releases)
 
 Die Datei `.ipk` nach `/tmp` auf die Box kopieren und im Terminal ausführen:
 
 ```
-opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.0_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.1_all.ipk
 ```
 
 Danach fragt die Box, ob die GUI neu gestartet werden soll. Alternativ: `killall -9 enigma2`.
@@ -70,6 +72,8 @@ SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008
 - Fetch interval of 3, 5 or 10 minutes, or off, with conditional requests (small response if the page has not changed)
 - Second feed source (optional): feed reports from the forum rolisat.de, alone or together with Satelliweb; column "Source" in the list
 - Message when zapping to a feed
+- Notifications: rules made of search term, category, source and "unencrypted only"; a matching new feed shows an overlay
+- Category filter and text search in the main window
 - Monthly statistics with comparison to the previous month
 - Save feeds (key 0) and show them (key PLAY, with category, filter by category and text search; delete entries again): your own archive to see when a feed was on air before, on which satellite and with which parameters (data or parts of the parameters often repeat)
 - German and English, depending on the language setting of the receiver
@@ -77,17 +81,17 @@ SatFeeds is a plugin for Enigma2 (tested with OpenATV 8.0.1 on an Octagon SF8008
 
 ### Download and installation
 
-Current version: **3.0**
+Current version: **3.1**
 
-- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/enigma2-plugin-extensions-satfeeds_3.0_all.ipk)
-- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Manual_EN.pdf) · [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/SatFeeds_Anleitung_DE.pdf)
-- [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_en.txt) · [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.0/CHANGELOG_Satfeeds_de.txt)
+- [Plugin (.ipk)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/enigma2-plugin-extensions-satfeeds_3.1_all.ipk)
+- [Manual (PDF, English)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/SatFeeds_Manual_EN.pdf) · [Anleitung (PDF, Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/SatFeeds_Anleitung_DE.pdf)
+- [Changelog (English)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/CHANGELOG_Satfeeds_en.txt) · [Changelog (Deutsch)](https://github.com/feedhunter/satfeeds/releases/download/v3.1/CHANGELOG_Satfeeds_de.txt)
 - [All versions](https://github.com/feedhunter/satfeeds/releases)
 
 Copy the `.ipk` file to `/tmp` on the receiver and run in a terminal:
 
 ```
-opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.0_all.ipk
+opkg install --force-reinstall /tmp/enigma2-plugin-extensions-satfeeds_3.1_all.ipk
 ```
 
 The receiver then asks whether to restart the GUI. Alternatively: `killall -9 enigma2`.

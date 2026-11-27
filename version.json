@@ -1,11 +1,11 @@
 {
   "name": "SatFeeds",
-  "version": "3.0",
-  "display": "3.0",
-  "ipk_url": "https://github.com/feedhunter/satfeeds/releases/download/v3.0/enigma2-plugin-extensions-satfeeds_3.0_all.ipk",
-  "ipk_file": "enigma2-plugin-extensions-satfeeds_3.0_all.ipk",
-  "sha256": "9b7173e5da7d80b8e9bd037b7c395e20bfb6ee9ae276c54cc93c5c103842cea9",
-  "size": 57658,
-  "changes_de": "Neu: zweite Feedquelle Rolisat (optional, Spalte Quelle, Statistik je Quelle) und Löschfunktion für gespeicherte Feeds.",
-  "changes_en": "New: second feed source Rolisat (optional, Source column, statistics per source) and delete function for saved feeds."
+  "version": "3.1",
+  "display": "3.1",
+  "ipk_url": "https://github.com/feedhunter/satfeeds/releases/download/v3.1/enigma2-plugin-extensions-satfeeds_3.1_all.ipk",
+  "ipk_file": "enigma2-plugin-extensions-satfeeds_3.1_all.ipk",
+  "sha256": "1c289dfb5f18b6e7a38c2574f995ecd4d40153dc8303e0654ea93e59932fed35",
+  "size": 63422,
+  "changes_de": "Neu: Benachrichtigungen (Regeln aus Suchbegriff, Kategorie, Quelle), Kategoriefilter und Textsuche im Hauptfenster.",
+  "changes_en": "New: notifications (rules made of search term, category, source), category filter and text search in the main window."
 }
